@@ -1,0 +1,24 @@
+a:link {
+    color: blue;
+}
+li + li {
+    color: crimson;
+}
+a:active {
+    background-color: red;
+}
+a:hover {
+    font-size: larger;
+}
+a:visited {
+    color: purple;
+}
+body p {
+    background-color: crimson;
+}
+body {
+    background-color: black;
+}
+header > h1 {
+    color: crimson;
+}
