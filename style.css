@@ -1,8 +1,4 @@
-.main-article {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 98vw;
-}
+
 .main-article p:hover{
     animation: text-fade 3s ease-in-out 500ms infinite;
 }
@@ -18,11 +14,6 @@
 @keyframes animate {
     0% {width: 100px; color: black;}
     100% { width: 450px; color: gold;}
-}
-#Images {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 60px;
 }
 .Headline:active {
     animation-name: animate;
@@ -68,4 +59,16 @@ header > h1 {
 }
 header h2 {
     color: gold;
+}
+@media screen (min-width: 300px) {
+    .Images{
+        display: inline-block;
+        width: 23vw;
+    }
+}
+@media screen (min-width: 650px) {
+    #media-sizing{
+        display: inline-block;
+        width: 250px;
+    }
 }
