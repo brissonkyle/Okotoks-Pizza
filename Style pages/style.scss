@@ -1,5 +1,4 @@
-
-.main-article p:hover{
+@mixin textFade() {
     animation: text-fade 3s ease-in-out 500ms infinite;
 }
 @keyframes footer {
@@ -52,7 +51,7 @@ body p {
     background-color: gold;
 }
 body {
-    background-color: black;
+    
 }
 header > h1 {
     color: gold;
